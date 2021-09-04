@@ -1,2 +1,2 @@
 var database = JSON.parse(jsonList);
-document.getElementsById("title").innerHTML = database.Friendly;
+document.getElementById("title").innerHTML = database.Friendly;
