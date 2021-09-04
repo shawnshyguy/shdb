@@ -1,3 +1,2 @@
-import database from './for contributors/example.js';
-/*const db = JSON.parse(database);*/
-document.getElementsById(friendly).innerHTML = database.Friendly;
+var database = JSON.parse(jsonList);
+document.getElementsById("title").innerHTML = database.Friendly;

@@ -1,4 +1,4 @@
-export default
+var jsonList = 
 {
     "Friendly": "Nest Mini (2nd gen)",
     "Model": "Google Nest Mini (2nd Generation)",
