@@ -1,23 +1,27 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Roboto&display=swap');
 h1 {
-    text-align:center;
+    font-family: 'Montserrat', sans-serif;
 }
 body {
-    background-color:#efefef;
+    background-color:#eceff1;
+    
+}
+p {
+    font-family: 'Roboto', sans-serif;
 }
 #card {
-    font-family: 'Roboto', sans-serif;
     vertical-align:top;
     border-radius:25px;
     background-color:white;
     box-shadow: 0 4px 8px 0 #0000002a, 0 6px 20px 0 #0000002a;
     width:40vw;
     position:relative;
+    /*transform: translateY(-200px);*/
     left:30vw;
     line-height:8px;
     height:150px;
-    
+    white-space: nowrap;
+    text-overflow: clip;
 }
 .icon {
     float:left;
@@ -36,3 +40,47 @@ body {
 .type,.tech,.software {
     display:inline
 }
+#header {
+    height:130px;
+    background-color:#cfd8dc;
+    position:absolute;
+    left:0;
+    right:0;
+    top:0;
+    
+
+}
+#persistent {
+    position:fixed;
+    left:0;
+    top:0;
+    right:0;
+    z-index:20;
+    background-color: #b2dfdb;
+    box-shadow:0  4px 8px 0 #0000002a, 0 6px 20px 0 #0000002a;
+    transition: 0.2s;
+    text-align:center;
+    padding-left:8px;
+}
+.spacer {
+    height:90px;
+}
+
+footer {
+    position:fixed;
+    bottom:0;
+
+}
+
+/* dark mode goes here */
+
+@media (prefers-color-scheme: dark) {
+
+    body {background-color:#37474f}
+
+    #card {background-color:#62727b}
+
+    p, h1 {color:#f5f5f5}
+
+    #persistent {background-color:#00695c}
+  }

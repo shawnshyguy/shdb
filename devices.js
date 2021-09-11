@@ -69,7 +69,7 @@ var jsonListItems =
         ]
     },
      {
-        "Friendly": "Samsung Crystal UHD TV (55\", 2020)",
+        "Friendly": "Samsung Crystal UHD TV (2020)",
         "Model": "UN55TU700DFXZA",
         "Manufacturer": "Samsung",
         "Type": "TV",
