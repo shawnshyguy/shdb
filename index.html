@@ -1,25 +1,27 @@
 <head>
     <link rel="stylesheet" href="index.css">
     <link rel="stylesheet" href="/ico/icons.css"> <!--icon font-->
-    <script type="text/javascript" src="for contributors/example.js"></script>
-    
+    <script type="text/javascript" src="devices.js"></script>
+    <script type="text/javascript" src="index.js"></script>
 
 </head>
 
 <body>
     <h1>SHDB</h1>
     <hr>
-    <div id="card">
-        <img class="icon" src="ico/test.webp">
-        <p id="Friendly">span</p>
-        <p class="model">Google Nest Mini (2nd Generation)</p>
-        <p class="manufacturer">Manufactured by <span>Google</span></p>
-        <p class="type">speaker</p>
-        <p class="tech">WiFi</p> <!--make these three icon fonts-->
-        <p class="software">Google Home</p>
-    </div>
+    <template id='cardTemplate'>
+        <div id="card">
+            <img class="icon" src="ico/test.webp">
+            <p class="friendly">if you're reading this right now... oops!</p>
+            <p class="model"></p>
+            <p>Made by <span class="manufacturer"></span></p>
+            <p class="type"></p>
+            <p class="tech"></p> <!--make these three icon fonts-->
+            <p class="software"></p>
+        </div>
+    </template>
 
 
     <!-- this script needs to be loaded last!-->
-    <script type="text/javascript" src="index.js"></script>
+    
 </body>

@@ -23,7 +23,7 @@ body {
     float:left;
     height:150px;
 }
-#friendly {
+.friendly {
     font-size:40px;
     padding-top:30px;
     line-height:0px
@@ -33,4 +33,6 @@ body {
     line-height:0px;
     padding-bottom:4px;
 }
-.type,.tech,.software {display:inline}
+.type,.tech,.software {
+    display:inline
+}

@@ -1,5 +1,6 @@
-{
-    "0001": {
+var jsonListItems = 
+[
+     {
         "Friendly": "Kasa Smart Light Switch",
         "Model": "HS200",
         "Manufacturer": "TP-Link",
@@ -16,7 +17,7 @@
             "Proprietary"
         ]
     },
-    "0002": {
+     {
         "Friendly": "Nest Mini",
         "Model": "Google Nest Mini (2nd Generation)",
         "Manufacturer": "Google",
@@ -28,7 +29,7 @@
             "Google Home"
         ]
     },
-    "0003": {
+     {
         "Friendly": "Nest Hub",
         "Model": "Google Nest Hub",
         "Manufacturer": "Google",
@@ -40,7 +41,7 @@
             "Google Home"
         ]
     },
-    "0004": {
+     {
         "Friendly": "Chromecast w/ Google TV",
         "Model": "Google Chomecast with Google TV",
         "Manufacturer": "Google",
@@ -52,7 +53,7 @@
             "Google Home"
         ]
     },
-    "0005": {
+    {
         "Friendly": "LIFX Color",
         "Model": "LIFX Color",
         "Manufacturer": "LIFX",
@@ -67,7 +68,7 @@
             "Proprietary"
         ]
     },
-    "0006": {
+     {
         "Friendly": "Samsung Crystal UHD TV (55\", 2020)",
         "Model": "UN55TU700DFXZA",
         "Manufacturer": "Samsung",
@@ -82,7 +83,7 @@
             "SmartThings"
         ]
     },
-    "0007": {
+     {
         "Friendly": "Apple TV 4K",
         "Model": "Apple TV 4K",
         "Manufacturer": "Apple",
@@ -95,7 +96,7 @@
             "HomeKit"
         ]
     },
-    "0008": {
+     {
         "Friendly": "BRAVIA 4K (2020)",
         "Model": "SONY BRAVIA 4K UR3",
         "Manufacturer": "Sony",
@@ -109,4 +110,5 @@
             "Alexa"
         ]
     }
-}
+    
+]
